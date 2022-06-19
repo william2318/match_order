@@ -4,6 +4,8 @@
 
 The script “match_order.py” organizes the input orders into an order book of market and limit bid/ask queues, according to the order type and side. Each time a new order is added to the book, the script will identify and print orders with filled prices and quatities if any.
 
+![Flowchart](Flowchart.png)
+
 ## Usage
 
 Execute the code using python3 and the input file (e.g sample_A.csv) is fed through the stdin channel.
